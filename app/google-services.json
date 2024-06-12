@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "726837312131",
+    "firebase_url": "https://tienda-cf67c.firebaseio.com",
+    "project_id": "tienda-cf67c",
+    "storage_bucket": "tienda-cf67c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726837312131:android:3ab71d1833f63bb223f9b6",
+        "android_client_info": {
+          "package_name": "com.cesar.examenmacropay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726837312131-s27cehli89ovqbh4gd7fvacio1a9jvhp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5fayrmMVzwGa39mCAM2ZtnC9yfNbYA_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726837312131-s27cehli89ovqbh4gd7fvacio1a9jvhp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

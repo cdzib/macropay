@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.pokemon.DetailPokemonActivity">
+  <androidx.core.widget.NestedScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <ImageView
+              android:id="@+id/imgPokemonDetail"
+              android:layout_width="match_parent"
+              android:layout_height="300dp">
+
+          </ImageView>
+          <LinearLayout
+              android:id="@+id/linearDetail"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/imgPokemonDetail"
+              android:orientation="vertical">
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:weightSum="9"
+                  android:padding="10dp"
+                  android:orientation="horizontal">
+                  <TextView
+
+                      android:layout_width="0dp"
+                      android:layout_weight="3"
+                      android:text="@string/text_id"
+                      android:layout_height="wrap_content">
+
+                  </TextView>
+                  <TextView
+                      android:padding="10dp"
+                      android:id="@+id/txtID"
+                      android:layout_width="0dp"
+                      android:layout_weight="6"
+                      android:text="@string/text_id"
+                      android:layout_height="wrap_content">
+
+                  </TextView>
+              </LinearLayout>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:weightSum="9"
+                  android:padding="10dp"
+                  android:orientation="horizontal">
+                  <TextView
+                      android:layout_width="0dp"
+                      android:layout_weight="3"
+                      android:text="@string/text_weight"
+                      android:layout_height="wrap_content">
+
+                  </TextView>
+                  <TextView
+                      android:id="@+id/txtWeight"
+                      android:layout_width="0dp"
+                      android:layout_weight="6"
+                      android:text="@string/text_weight"
+                      android:layout_height="wrap_content">
+
+                  </TextView>
+              </LinearLayout>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:weightSum="9"
+                  android:padding="10dp"
+                  android:orientation="horizontal">
+                  <TextView
+                      android:layout_width="0dp"
+                      android:layout_weight="3"
+                      android:text="@string/text_height"
+                      android:layout_height="wrap_content">
+
+                  </TextView>
+                  <TextView
+                      android:id="@+id/txtHeight"
+                      android:layout_width="0dp"
+                      android:layout_weight="6"
+                      android:text="@string/text_height"
+                      android:layout_height="wrap_content">
+
+                  </TextView>
+              </LinearLayout>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:weightSum="9"
+                  android:padding="10dp"
+                  android:orientation="horizontal">
+                  <TextView
+                      android:layout_width="0dp"
+                      android:layout_weight="3"
+                      android:text="@string/text_abilities"
+                      android:layout_height="wrap_content">
+
+                  </TextView>
+                  <TextView
+                      android:id="@+id/txtAbilities"
+                      android:layout_width="0dp"
+                      android:layout_weight="6"
+                      android:text="@string/text_abilities"
+                      android:layout_height="wrap_content">
+
+                  </TextView>
+              </LinearLayout>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:weightSum="9"
+                  android:padding="10dp"
+                  android:orientation="horizontal">
+                  <TextView
+                      android:layout_width="0dp"
+                      android:layout_weight="3"
+                      android:text="@string/text_type"
+                      android:layout_height="wrap_content">
+
+                  </TextView>
+                  <TextView
+                      android:id="@+id/txtType"
+                      android:layout_width="0dp"
+                      android:layout_weight="6"
+                      android:text="@string/text_type"
+                      android:layout_height="wrap_content">
+
+                  </TextView>
+              </LinearLayout>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:weightSum="9"
+                  android:padding="10dp"
+                  android:orientation="horizontal">
+                  <TextView
+                      android:layout_width="0dp"
+                      android:layout_weight="3"
+                      android:text="@string/text_forms"
+                      android:layout_height="wrap_content">
+
+                  </TextView>
+                  <TextView
+                      android:id="@+id/txtForms"
+                      android:layout_width="0dp"
+                      android:layout_weight="6"
+                      android:text="@string/text_forms"
+                      android:layout_height="wrap_content">
+
+                  </TextView>
+              </LinearLayout>
+          </LinearLayout>
+          <androidx.recyclerview.widget.RecyclerView
+              android:id="@+id/statsRecyclerView"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/linearDetail">
+
+          </androidx.recyclerview.widget.RecyclerView>
+      </RelativeLayout>
+  </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

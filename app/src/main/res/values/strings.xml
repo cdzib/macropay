@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Pokemon App</string>
+    <string name="title_activity_login">Inicio de Sesión</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Iniciar</string>
+    <string name="action_sign_in_short">Iniciar</string>
+    <string name="welcome">"Bienvenido !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">La contraseña debe tener minimo 5 caracteres</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_main">Listado de Pokemons</string>
+
+    <string name="action_sign_in_google">Iniciar con Google</string>
+    <string name="action_sign_in_email">Iniciar con Firebase</string>
+    <string name="text_id">ID</string>
+    <string name="text_weight">Weight</string>
+    <string name="text_abilities">Abilities</string>
+    <string name="text_type">Type</string>
+    <string name="text_forms">Forms</string>
+    <string name="text_height">Height</string>
+    <string name="dummy_content">POKEMON\nAPP</string>
+</resources>

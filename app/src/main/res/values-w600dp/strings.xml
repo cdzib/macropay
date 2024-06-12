@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_sign_in_google">Iniciar con Google</string>
+    <string name="action_sign_in_email">Iniciar con Firebase</string>
+    <string name="text_id">ID</string>
+    <string name="text_weight">Weight</string>
+    <string name="text_abilities">Abilities</string>
+    <string name="text_type">Type</string>
+    <string name="text_forms">Forms</string>
+    <string name="text_height">Height</string>
+</resources>
